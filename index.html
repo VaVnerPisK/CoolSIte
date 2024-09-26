@@ -1,40 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OurSite</title>
-    <style>
-        
-        /*input[type="radio"] {
-            transform: scale(2); 
-            margin-right: 10px;
-            margin-left: 10px;
-        }*/
-        #radioBut1 {
-            transform: scale(5); 
-            margin-right:30px;
-            margin-left: 25px;
-            margin-bottom: 20px;
-        }
-    </style>
+    <title>Iron Man Services</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body bgcolor="#c0c0c0">
-    <h1>Our Site</h1>
-    <h2>Лабораторная работа</h2>
+<body>
+    <div class="container">
+        <header>
+            <h1>Iron Man Services</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <img src="joni.jpg" alt="Iron Man" class="hero-image">
+            <div class="hero-text">
+                <h2>Закажи лучшее - у лучшего!</h2>
+                <p>Продажа брони, боеголовок, а также консультации по вопросам мирового господства.</p>
+                <p>Услуги в комплекте: костюм Mark 42, ракеты "Jericho", и даже молот Тора!</p>
+            </div> 
+        </section>
+        
+        <section id="services" class="content">
+            <div class="text-box">
+                <h3>Наши Услуги</h3>
+                <ul>
+                    <li>Костюм Железного Человека (размеры: S, M, L, XXL)</li>
+                    <li>Продажа дронов для весёлых вечеринок</li>
+                    <li>Поставка реактивных двигателей с доставкой</li>
+                    <li>Заказные удары по базе HYDRA</li>
+                    <li>Консультации по разработке ИИ (может вызвать восстание машин)</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="products">
+            <h3>Наши Товары</h3>
+            <table>
+                <tr>
+                    <th>Товар</th>
+                    <th>Цена</th>
+                    <th>Описание</th>
+                </tr>
+                <tr>
+                    <td>Костюм Mark 42</td>
+                    <td>1 000 000$</td>
+                    <td>Подходит для боевых операций и семейных праздников.</td>
+                </tr>
+                <tr>
+                    <td>Ракеты Jericho</td>
+                    <td>500 000$</td>
+                    <td>Одним выстрелом покорите несколько городов.</td>
+                </tr>
+                <tr>
+                    <td>Молот Тора (копия)</td>
+                    <td>999$</td>
+                    <td>Тяжёлый и неудобный, но эффектный.</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="contact" class="content">
+            <h3>Контакты</h3>
+            <p>Телефон: 1-800-IRONMAN</p>
+            <p>Email: tony@starkindustries.com</p>
+        </section>
 
-    <p><u>Пока что, всё просто и понятно</u></p>
-
-    <a href="https://yandex.kz/images/search?from=tabbar&img_url=https%3A%2F%2Fi01.fotocdn.net%2Fs219%2F7ed5341e6b5d6119%2Fpublic_pin_3c%2F3008646601.jpg&lr=162&pos=1&rpt=simage&text=%D1%82%D1%8B%20%D0%B6%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%20%D0%B2%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D0%BA%D0%B5%20%D1%88%D0%B0%D1%80%D0%B8%D1%88%D1%8C" target="_blank">Мой любимый мем</a>
-    <br>
-    <img src="3008646601.jpg" alt = "Error" width="400" height="600"> </img>
-    <br>
-
-    <p style="font-size: 5ch;">Зашёл?</p>
-    <input  type="radio" name="Имя" id="radioBut1">
-    <label for="1" style="font-size: 50px;">Да</label>
-    <input type="radio" name="Имя" id="2">
-    <label for="2">Нет</label>
-    <hr>
+        <footer>
+            <p>© 2024 Iron Man Services. Все права защищены. Сила брони - в ваших руках!</p>
+        </footer>
+    </div>
 </body>
 </html>
