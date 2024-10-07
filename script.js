@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const urgentOrderButton = document.getElementById('urgent-order-button');
     const fbiLogo = document.createElement('img');
-    fbiLogo.src = 'fbi-logo.png'; 
+    fbiLogo.src = 'FBI-logo.png'; 
     fbiLogo.alt = 'FBI Logo';
     fbiLogo.id = 'fbi-logo';
     fbiLogo.style.display = 'none'; 
