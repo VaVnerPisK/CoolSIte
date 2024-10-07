@@ -18,7 +18,7 @@
                 </ul>
             </nav>
         </header>
-        
+        <audio id="fbi-sound" src="fbi-sound.mp3"></audio>
         <section class="hero">
             <img src="joni.jpg" alt="Iron Man" class="hero-image">
             <div class="hero-text">
@@ -38,6 +38,15 @@
                     <li>Заказные удары по базе HYDRA</li>
                     <li>Консультации по разработке ИИ (может вызвать восстание машин)</li>
                 </ul>
+            </div>
+        </section>
+        
+        <section id="promotion" class="content">
+            <h3>Специальное предложение!</h3>
+            <div id="promotion-text"></div> 
+            <button id="buy-button">КУПИТЬ</button>
+            <div id="rocket-image" style="display: none;"> 
+                <img src="rocket.png" alt="Ракета" id="rocket" style="width: 200px; margin-top: 10px;">
             </div>
         </section>
         
@@ -73,9 +82,14 @@
             <p>Email: tony@starkindustries.com</p>
         </section>
 
+        <section id="urgent-order" class="content">
+            <button id="urgent-order-button">СРОЧНО ЗАКАЗАТЬ</button>
+        </section>
+
         <footer>
             <p>© 2024 Iron Man Services. Все права защищены. Сила брони - в ваших руках!</p>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
